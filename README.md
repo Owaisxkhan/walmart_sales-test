@@ -65,9 +65,9 @@ This project is an end-to-end data analysis solution designed to extract critica
       			ELSE 'Evening'
       		END day_time,
       		COUNT(*)
-      FROM walmart
-      GROUP BY 1,2
-      ORDER BY 1,3 desc
+            FROM walmart
+            GROUP BY 1,2
+            ORDER BY 1,3 desc
       ```
      - Identifying best-selling product categories.
      - Sales performance by time, city, and payment method.
